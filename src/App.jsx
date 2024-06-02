@@ -1,3 +1,4 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom"; 
 import { Home, Contributors } from "./Pages"; 
 import { Navbar } from "./Components";
