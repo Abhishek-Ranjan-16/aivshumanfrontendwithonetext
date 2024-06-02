@@ -25,7 +25,7 @@ const PredictionComponent = ({ prediction }) => {
 
   return (
     <div className={styles.predictionContainer}>
-      {/* <svg width={totalRadius * 2} height={totalRadius * 2}>
+      <svg width={totalRadius * 2} height={totalRadius * 2}>
         {calculateCirclePath(100, "darkblue")} 
         {calculateCirclePath(nonAiPercentage, "grey")}
       </svg>
@@ -34,14 +34,7 @@ const PredictionComponent = ({ prediction }) => {
         <span className={styles.nonAiLabel}>
           Non-AI Content: {nonAiPercentage.toFixed(1)}%
         </span>
-      </div> */}
-
-      {prediction > 0.5 && <div style={{ color: "black" }}>Text 1 is AI</div>}
-      {prediction === 0.5 && (
-        <div style={{ color: "black" }}>Cannot Decide</div>
-      )}
-      {prediction < 0.5 && <div style={{ color: "black" }}>Text 2 is AI</div>}
-      {<div style={{ color: "navy" }}>{prediction}</div>}
+      </div>
     </div>
   );
 };
