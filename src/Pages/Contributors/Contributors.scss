@@ -1,0 +1,61 @@
+*{
+    color: white;
+}
+.contributors-container { 
+  background-image: url(https://i.postimg.cc/rs8dY5Xb/hacker-2300772-1920.jpg);
+  height: fit-content;
+  text-align: center;
+  width: 80vw;
+}
+
+.contributors-heading {
+  h1 {
+    text-align: center;
+  }
+}
+
+.contributors {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contributor-card {
+  background-image: url(https://www.shutterstock.com/image-vector/vector-binary-code-dark-blue-600nw-721125094.jpg);
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 330px;
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact-icons {
+  .contact-info {
+    display: flex;
+    align-items: center;
+
+    .email-icon,
+    .phone-icon {
+      margin-right: 5px; 
+    }
+  }
+}
+
+.contributor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contributor-name {
+  margin: 0;
+}
+
+.contributor-role {
+  margin: 5px 0;
+}
